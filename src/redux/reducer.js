@@ -47,7 +47,6 @@ const UserReducer = (state = InitialState, action) => {
       };
     }
     case FETCH_USERS_SUCCESS: {
-      // const { responseData } = action.payload;
       return {
         ...state,
         isLoading: false,
@@ -55,7 +54,6 @@ const UserReducer = (state = InitialState, action) => {
       };
     }
     case FETCH_USERS_FAILURE: {
-      // const { code } = action.payload;
       return {
         ...state,
         isLoading: false,

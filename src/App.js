@@ -20,8 +20,6 @@ function App() {
     <>
       <h1 className="h1">User Details</h1>
 
-      {/* {} */}
-
       <div className="cards-list">
         {data.map((item) => {
           return (

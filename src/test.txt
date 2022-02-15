@@ -1,0 +1,10 @@
+const uri = "https://jsonplaceholder.typicode.com/users";
+
+  const getUser = async () => {
+    try {
+      const response = await axios.get(uri);
+      setUsers(response.data);
+    } catch (error) {
+      return error;
+    }
+  };
